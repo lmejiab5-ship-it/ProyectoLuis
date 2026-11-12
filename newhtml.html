@@ -1,0 +1,808 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Parking Verde | Estacionamiento Seguro</title>
+
+    <link rel="stylesheet" href="newcss.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =================================
+         ENCABEZADO Y NAVEGACION
+    ================================== -->
+
+    <header class="encabezado">
+
+        <a href="#inicio" class="logo">
+            <span class="logo-icono">P</span>
+
+            <span class="logo-texto">
+                PARKING
+                <strong>VERDE</strong>
+            </span>
+        </a>
+
+        <nav class="navegacion">
+
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#instalaciones">Instalaciones</a>
+            <a href="#tarifas">Tarifas</a>
+
+            <a href="#registro" class="nav-registro">
+                Registrarse
+            </a>
+
+            <button type="button"
+                    id="btnAdministrador"
+                    class="btn-admin"
+                    title="Acceso administrador"
+                    aria-label="Acceso administrador">
+                <span>♙</span>
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =================================
+         PORTADA PRINCIPAL
+    ================================== -->
+
+    <section class="inicio" id="inicio">
+
+        <div class="portada-contenido">
+
+            <span class="etiqueta-portada">
+                ESTACIONAMIENTO SEGURO Y CONFIABLE
+            </span>
+
+            <h1>
+                Tu vehículo merece
+                <span>el mejor lugar.</span>
+            </h1>
+
+            <p>
+                En Parking Verde ofrecemos un espacio cómodo,
+                organizado y confiable para cuidar tu vehículo
+                mientras disfrutas de tu día.
+            </p>
+
+            <div class="portada-botones">
+
+                <a href="#registro" class="boton boton-principal">
+                    Registrarme ahora
+                    <span>→</span>
+                </a>
+
+                <a href="#servicios" class="boton boton-secundario">
+                    Conocer servicios
+                </a>
+
+            </div>
+
+            <div class="portada-datos">
+
+                <div>
+                    <strong>20</strong>
+                    <span>Espacios de parqueo</span>
+                </div>
+
+                <div>
+                    <strong>100%</strong>
+                    <span>Compromiso y servicio</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="portada-imagen">
+
+            <img
+                src="https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=1400"
+                alt="Estacionamiento moderno">
+
+            <div class="imagen-insignia">
+                <span>✓</span>
+                <div>
+                    <strong>Tu tranquilidad</strong>
+                    <small>Es nuestra prioridad</small>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         BARRA INFORMATIVA
+    ================================== -->
+
+    <section class="barra-informativa">
+
+        <div>
+            <span class="informativo-icono">◆</span>
+            <span>Espacios organizados</span>
+        </div>
+
+        <div>
+            <span class="informativo-icono">✓</span>
+            <span>Control de vehículos</span>
+        </div>
+
+        <div>
+            <span class="informativo-icono">◷</span>
+            <span>Registro de entradas y salidas</span>
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         INSTALACIONES
+    ================================== -->
+
+    <section class="instalaciones" id="instalaciones">
+
+        <div class="titulo-seccion">
+
+            <span class="subtitulo">NUESTRO ESPACIO</span>
+
+            <h2>Un lugar pensado para tu tranquilidad</h2>
+
+            <p>
+                Instalaciones diseñadas para ofrecer
+                comodidad, organización y confianza.
+            </p>
+
+        </div>
+
+        <div class="galeria">
+
+            <div class="galeria-principal">
+
+                <img
+                    src="https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=1400"
+                    alt="Estacionamiento moderno">
+
+                <div class="galeria-texto">
+                    <span>01 / INSTALACIONES</span>
+                    <h3>Un espacio para cada vehículo</h3>
+                </div>
+
+            </div>
+
+            <div class="galeria-lateral">
+
+                <div class="galeria-secundaria">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=900"
+                        alt="Área de estacionamiento">
+
+                    <div>
+                        <h3>Organización</h3>
+                        <p>Espacios distribuidos para tu comodidad.</p>
+                    </div>
+
+                </div>
+
+                <div class="galeria-secundaria">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=900"
+                        alt="Automóvil moderno">
+
+                    <div>
+                        <h3>Calidad de servicio</h3>
+                        <p>Atención enfocada en tus necesidades.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         SERVICIOS
+    ================================== -->
+
+    <section class="servicios seccion" id="servicios">
+
+        <div class="titulo-seccion">
+
+            <span class="subtitulo">LO QUE OFRECEMOS</span>
+
+            <h2>Nuestros servicios</h2>
+
+            <p>
+                Todo lo necesario para una experiencia
+                de estacionamiento sencilla y organizada.
+            </p>
+
+        </div>
+
+        <div class="servicios-grid">
+
+            <article class="servicio-card">
+
+                <div class="servicio-icono">▣</div>
+
+                <h3>Estacionamiento</h3>
+
+                <p>
+                    Espacios disponibles para automóviles
+                    y motocicletas.
+                </p>
+
+            </article>
+
+            <article class="servicio-card">
+
+                <div class="servicio-icono">✓</div>
+
+                <h3>Control de vehículos</h3>
+
+                <p>
+                    Registro organizado de entradas,
+                    salidas y espacios ocupados.
+                </p>
+
+            </article>
+
+            <article class="servicio-card">
+
+                <div class="servicio-icono">▤</div>
+
+                <h3>Pagos y facturación</h3>
+
+                <p>
+                    Cálculo de tarifas y generación
+                    de comprobantes de pago.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         TARIFAS
+    ================================== -->
+
+    <section class="tarifas seccion" id="tarifas">
+
+        <div class="titulo-seccion">
+
+            <span class="subtitulo">PRECIOS CLAROS</span>
+
+            <h2>Nuestras tarifas</h2>
+
+            <p>
+                Conoce nuestros precios de estacionamiento.
+            </p>
+
+        </div>
+
+        <div class="tarifas-grid">
+
+            <article class="tarifa-card">
+
+                <div class="tarifa-icono">🚗</div>
+
+                <h3>Automóvil</h3>
+
+                <p class="tarifa-descripcion">
+                    Para vehículos particulares.
+                </p>
+
+                <div class="precio">
+                    <strong>Q10</strong>
+                    <span>/ primera hora</span>
+                </div>
+
+                <div class="precio-adicional">
+                    Q5.00 por cada hora adicional
+                </div>
+
+                <a href="#registro" class="boton boton-tarifa">
+                    Registrarme
+                </a>
+
+            </article>
+
+            <article class="tarifa-card tarifa-destacada">
+
+                <span class="tarifa-etiqueta">
+                    TARIFA DISPONIBLE
+                </span>
+
+                <div class="tarifa-icono">🏍</div>
+
+                <h3>Motocicleta</h3>
+
+                <p class="tarifa-descripcion">
+                    Para motocicletas.
+                </p>
+
+                <div class="precio">
+                    <strong>Q5</strong>
+                    <span>/ primera hora</span>
+                </div>
+
+                <div class="precio-adicional">
+                    Q3.00 por cada hora adicional
+                </div>
+
+                <a href="#registro" class="boton boton-tarifa">
+                    Registrarme
+                </a>
+
+            </article>
+
+        </div>
+
+        <p class="nota-tarifas">
+            * El cobro se calcula según las horas de permanencia.
+        </p>
+
+    </section>
+
+
+    <!-- =================================
+         REGISTRO DE CLIENTES
+    ================================== -->
+
+    <section class="registro seccion" id="registro">
+
+        <div class="titulo-seccion">
+
+            <span class="subtitulo">FORMA PARTE DE NOSOTROS</span>
+
+            <h2>Registra tu vehículo</h2>
+
+            <p>
+                Completa tus datos para formar parte
+                de nuestro sistema de estacionamiento.
+            </p>
+
+        </div>
+
+        <div class="formulario-contenedor">
+
+            <div class="formulario-info">
+
+                <span class="info-etiqueta">PARKING VERDE</span>
+
+                <h3>Tu comodidad comienza aquí.</h3>
+
+                <p>
+                    Registra tus datos y los de tu vehículo
+                    para facilitar el control de tu estancia.
+                </p>
+
+                <div class="info-beneficio">
+                    <span>✓</span>
+                    Registro de clientes
+                </div>
+
+                <div class="info-beneficio">
+                    <span>✓</span>
+                    Control de vehículos
+                </div>
+
+                <div class="info-beneficio">
+                    <span>✓</span>
+                    Registro organizado
+                </div>
+
+            </div>
+
+            <div class="formulario">
+
+                <h3>Datos del cliente</h3>
+
+                <p class="formulario-descripcion">
+                    Ingresa la información solicitada.
+                </p>
+
+                <form id="formRegistro">
+
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre"
+                           placeholder="Ej. Juan Pérez" required>
+
+                    <label for="dpi">Número de DPI</label>
+                    <input type="text" id="dpi"
+                           placeholder="Ingresa tu DPI" required>
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono"
+                           placeholder="Número de teléfono" required>
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo"
+                           placeholder="correo@ejemplo.com" required>
+
+                    <label for="placa">Número de placa</label>
+                    <input type="text" id="placa"
+                           placeholder="Ej. P123ABC" required>
+
+                    <label for="tipo">Tipo de vehículo</label>
+
+                    <select id="tipo" required>
+                        <option value="Automóvil">Automóvil</option>
+                        <option value="Motocicleta">Motocicleta</option>
+                    </select>
+
+                    <button type="submit" class="boton boton-enviar">
+                        Registrar cliente →
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         ACCESO ADMINISTRADOR
+    ================================== -->
+
+    <section class="administrador seccion oculto" id="accesoAdmin">
+
+        <div class="titulo-seccion">
+
+            <span class="subtitulo">ACCESO RESTRINGIDO</span>
+
+            <h2>Panel de administración</h2>
+
+            <p>
+                Ingresa tus credenciales para administrar
+                el estacionamiento.
+            </p>
+
+        </div>
+
+        <div class="formulario login-formulario">
+
+            <div class="login-icono">♙</div>
+
+            <h3>Bienvenido, administrador</h3>
+
+            <p class="formulario-descripcion">
+                Ingresa tus datos de acceso.
+            </p>
+
+            <form id="formLogin">
+
+                <label for="usuarioAdmin">Usuario</label>
+
+                <input type="text" id="usuarioAdmin"
+                       placeholder="Nombre de usuario" required>
+
+                <label for="claveAdmin">Contraseña</label>
+
+                <input type="password" id="claveAdmin"
+                       placeholder="Contraseña" required>
+
+                <button type="submit" class="boton boton-enviar">
+                    Iniciar sesión →
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================
+         PANEL ADMINISTRATIVO
+    ================================== -->
+
+    <section class="panel seccion oculto" id="panelSistema">
+
+        <div class="panel-encabezado">
+
+            <div>
+                <span class="subtitulo">ADMINISTRACIÓN</span>
+                <h2>Panel de control</h2>
+                <p>Gestiona las operaciones de Parking Verde.</p>
+            </div>
+
+            <span class="panel-estado">
+                ● Sistema activo
+            </span>
+
+        </div>
+
+
+        <!-- ESTADISTICAS -->
+
+        <div class="estadisticas">
+
+            <div class="estadistica-card">
+                <span class="estadistica-icono">▣</span>
+                <p>Espacios disponibles</p>
+                <strong id="espaciosLibres">20</strong>
+            </div>
+
+            <div class="estadistica-card">
+                <span class="estadistica-icono">🚘</span>
+                <p>Espacios ocupados</p>
+                <strong id="espaciosOcupados">0</strong>
+            </div>
+
+            <div class="estadistica-card">
+                <span class="estadistica-icono">♙</span>
+                <p>Clientes registrados</p>
+                <strong id="totalClientes">0</strong>
+            </div>
+
+        </div>
+
+
+        <!-- INFORMACION DEL CLIENTE -->
+
+        <div class="panel-card">
+
+            <div class="panel-card-titulo">
+                <h3>Información del cliente</h3>
+                <span>Datos registrados</span>
+            </div>
+
+            <div id="datosCliente">
+                No hay cliente seleccionado.
+            </div>
+
+        </div>
+
+
+        <!-- ENTRADA DE VEHICULOS -->
+
+        <div class="panel-grid">
+
+            <div class="panel-card">
+
+                <div class="panel-card-titulo">
+                    <h3>Registrar entrada</h3>
+                    <span>Ingreso de vehículos</span>
+                </div>
+
+                <form id="formEntrada">
+
+                    <label for="clienteEntrada">
+                        Seleccionar cliente
+                    </label>
+
+                    <select id="clienteEntrada" required>
+                        <option value="">Seleccionar cliente</option>
+                    </select>
+
+                    <label for="placaEntrada">
+                        Número de placa
+                    </label>
+
+                    <input type="text" id="placaEntrada"
+                           placeholder="Número de placa" required>
+
+                    <label for="tipoVehiculo">
+                        Tipo de vehículo
+                    </label>
+
+                    <select id="tipoVehiculo" required>
+                        <option value="Automóvil">Automóvil</option>
+                        <option value="Motocicleta">Motocicleta</option>
+                    </select>
+
+                    <button type="submit" class="boton boton-enviar">
+                        Registrar entrada
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- SALIDA DE VEHICULOS -->
+
+            <div class="panel-card">
+
+                <div class="panel-card-titulo">
+                    <h3>Registrar salida</h3>
+                    <span>Salida y cobro</span>
+                </div>
+
+                <form id="formSalida">
+
+                    <label for="vehiculoSalida">
+                        Seleccionar vehículo
+                    </label>
+
+                    <select id="vehiculoSalida" required>
+                        <option value="">Seleccionar vehículo</option>
+                    </select>
+
+                    <p class="ayuda-formulario">
+                        Al registrar la salida se calculará
+                        automáticamente el pago correspondiente.
+                    </p>
+
+                    <button type="submit" class="boton boton-enviar">
+                        Calcular pago y salida
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+        <!-- HISTORIAL -->
+
+        <div class="panel-card">
+
+            <div class="panel-card-titulo">
+                <h3>Historial de movimientos</h3>
+                <span>Últimos registros</span>
+            </div>
+
+            <div class="tabla-contenedor">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Cliente</th>
+                            <th>Placa</th>
+                            <th>Entrada</th>
+                            <th>Salida</th>
+                            <th>Pago</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tablaMovimientos">
+
+                        <tr>
+                            <td colspan="5">
+                                No hay movimientos registrados.
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+        <!-- FACTURA -->
+
+        <div class="panel-card">
+
+            <div class="panel-card-titulo">
+                <h3>Factura del estacionamiento</h3>
+                <span>Comprobante de pago</span>
+            </div>
+
+            <div id="factura">
+                Aquí aparecerá la factura.
+            </div>
+
+            <button id="imprimirFactura"
+                    type="button"
+                    class="boton boton-enviar">
+                Imprimir factura
+            </button>
+
+        </div>
+
+
+        <button id="cerrarSesion" type="button"
+                class="boton boton-cerrar">
+            Cerrar sesión
+        </button>
+
+    </section>
+
+
+    <!-- =================================
+         PIE DE PAGINA
+    ================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-contenido">
+
+            <div class="footer-marca">
+
+                <a href="#inicio" class="logo logo-footer">
+
+                    <span class="logo-icono">P</span>
+
+                    <span class="logo-texto">
+                        PARKING
+                        <strong>VERDE</strong>
+                    </span>
+
+                </a>
+
+                <p>
+                    Tu vehículo en buenas manos.
+                    Seguridad, comodidad y confianza
+                    en un solo lugar.
+                </p>
+
+            </div>
+
+            <div class="footer-enlaces">
+
+                <h3>Enlaces rápidos</h3>
+
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#instalaciones">Instalaciones</a>
+                <a href="#tarifas">Tarifas</a>
+
+            </div>
+
+            <div class="footer-enlaces">
+
+                <h3>Información</h3>
+
+                <a href="#registro">Registro de clientes</a>
+                <a href="#tarifas">Precios</a>
+                <a href="#inicio">Parking Verde</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-final">
+
+            <p>
+                © 2026 Parking Verde. Todos los derechos reservados.
+            </p>
+
+            <p>
+                Proyecto Final - Programación II
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="newjavascript.js"></script>
+
+</body>
+</html>
